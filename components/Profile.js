@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import { StyleSheet, Text, View } from "react-native";
 
-class Profile extends Component {
+class ProfileScreen extends Component {
   state = {};
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.title}>Profile</Text>
+        <Text style={styles.title}>ProfileScreen</Text>
       </View>
     );
   }
@@ -26,4 +26,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default Profile;
+export default ProfileScreen;

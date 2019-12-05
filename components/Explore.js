@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import { StyleSheet, Text, View } from "react-native";
 
-class Explore extends Component {
+class ExploreScreen extends Component {
   state = {};
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.title}>Explore</Text>
+        <Text style={styles.title}>ExploreScreen</Text>
       </View>
     );
   }
@@ -26,4 +26,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default Explore;
+export default ExploreScreen;

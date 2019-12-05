@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import { StyleSheet, Text, View } from "react-native";
 
-class AddBook extends Component {
+class AddBookScreen extends Component {
   state = {};
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.title}>AddBook</Text>
+        <Text style={styles.title}>AddBookScreen</Text>
       </View>
     );
   }
@@ -26,4 +26,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default AddBook;
+export default AddBookScreen;

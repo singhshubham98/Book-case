@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import { StyleSheet, Text, View } from "react-native";
 
-class Lists extends Component {
+class ListsScreen extends Component {
   state = {};
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.title}>Lists</Text>
+        <Text style={styles.title}>ListsScreen</Text>
       </View>
     );
   }
@@ -26,4 +26,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default Lists;
+export default ListsScreen;
